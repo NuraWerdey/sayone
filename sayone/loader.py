@@ -19,3 +19,11 @@ def load_all_modules(client):
             if hasattr(module, "setup"):
                 module.setup(client)
                 print(f"✅ Модуль {module_name} загружен!")
+                
+RESTRICTED_BUILTINS = ["eval", "exec", "open", "__import__"]
+
+spec.loader.exec_module(module)
+module.__dict__["__builtins__"] = {
+    k: v for k, v in __builtins__.items() 
+    if k not in RESTRICTED_BUILTINS
+}                
