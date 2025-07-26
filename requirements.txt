@@ -2,4 +2,4 @@ telethon==1.40.0
 config==0.5.1
 dotenv==0.9.9
 asyncio==3.4.3
-cli-git==2.2.0
+
