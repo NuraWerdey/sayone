@@ -3,7 +3,7 @@ cls
 color 0A
 title SayOne UserBot Installer
 
-clear
+
 
 :: Проверка Python
 python --version >nul 2>&1
