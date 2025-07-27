@@ -1,4 +1,0 @@
-telethon==1.40.0
-dotenv==0.9.9
-config==0.5.1
-asyncio==3.4.3
