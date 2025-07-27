@@ -1,0 +1,1 @@
+winget install Telegram.Desktop
