@@ -1,1 +1,4 @@
-
+{
+    "modules": {"enabled": true},
+    "userbot": {"prefix": ".", "logs": true}
+}
